@@ -10,7 +10,7 @@ Clone the target project into your folder `git clone https://github.com/huongtra
 Clone the appitum test into your folder `git clone https://github.com/huongtravo0910/appinum_example.git`
 
 ### Setup app
-##### Create an dev account on Marvel web if you haven't had one yet
+##### * Create an dev account on Marvel web if you haven't had one yet
 Sign up an account on `https://developer.marvel.com` .
 Since you sign up successfully, you will be provided a public key and a private key. Go to my developer account page to get the keys. Then put the them into swift project code. 
 
@@ -22,7 +22,7 @@ let publicKey = [YOUR_PUBLIC_KEY]
 Try to build the app. If your keys are right, the app can be built successfully.
 
 Then back to appium test.
-##### Build app
+##### * Build app
 In package.json file, on "test:build" line, replace `./MarvelAPIExample/Marvel_API_Ex_App.xcodeproj` with your correct path to the swift project.
 
 Then run:

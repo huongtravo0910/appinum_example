@@ -1,7 +1,7 @@
 # Appium Example
 This is an e2e test using appium.
 
-### HOW TO USE
+## HOW TO USE
 ### Clone repos
 Choose a folder project in your system and switch in cd [folder path]
 

@@ -29,12 +29,12 @@ Then run:
 ```
 npm install
 ```
-to install packages.
+to install packages,
 ```
 npm run test:build
 ```
 to build the app.
-### Setup E2E test
+### Run E2E test
 After setup, run this command to start E2E test
 ```
 npm run test:run

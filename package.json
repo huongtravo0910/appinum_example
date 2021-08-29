@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:build": "xcodebuild -project ./MarvelAPIExample/Marvel_API_Ex_App.xcodeproj -configuration release -scheme Marvel_API_Ex_App -sdk iphonesimulator -derivedDataPath build",
+    "test:build": "xcodebuild -project ../MarvelAPIExample/Marvel_API_Ex_App.xcodeproj -configuration release -scheme Marvel_API_Ex_App -sdk iphonesimulator -derivedDataPath build",
     "test:run": "wdio wdio.conf.js"
   },
   "author": "",

@@ -23,7 +23,7 @@ Try to build the app. If your keys are right, the app can be built successfully.
 
 Then back to appium test.
 ##### * Build app
-In package.json file, on "test:build" line, replace `./MarvelAPIExample/Marvel_API_Ex_App.xcodeproj` with your correct path to the swift project.
+In package.json file, on "test:build" line, replace `../MarvelAPIExample/Marvel_API_Ex_App.xcodeproj` with your correct path to the swift project.
 
 Then run:
 ```
